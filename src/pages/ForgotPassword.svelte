@@ -1,4 +1,6 @@
 <script>
+  import { Link } from "svelte-routing";
+
   let email = "";
 
   const onSubmit = (event) => {
@@ -24,7 +26,9 @@
       />
     </div>
 
-    <button type="submit" class="submit-btn">Reset Password</button>
+    <button type="submit" class="submit-btn">
+      <Link to="/new-password">Reset password</Link>
+      </button>
   </form>
 </div>
 
@@ -104,6 +108,9 @@
     transition: background-color 0.3s ease;
   }
 
+  .submit-btn a {
+    color: white;
+  }
   .submit-btn:hover {
     background-color: #0c59c4;
   }
