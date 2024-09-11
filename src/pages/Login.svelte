@@ -9,7 +9,7 @@
 </script>
 
 <form>
-  <h2>Create an account</h2>
+  <h2>Login to your account</h2>
   <p>Kindly enter the details to get started</p>
 
   <div class="form-group">

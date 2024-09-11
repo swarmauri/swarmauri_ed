@@ -8,7 +8,10 @@ Follow these steps to set up the project locally:
 
    ```bash
    git clone https://github.com/swarmauri/swarmauri_ed.git
-   cd your-repo-name
+   ```
+   
+   ```bash
+   cd swarmauri_ed
    ```
 
 2. **Install Dependencies**
@@ -45,9 +48,14 @@ To start the development server and run the project locally, follow these steps:
 
    Navigate to `http://localhost:5173`
 
+
+## Existing Features
 ### **Signup/Signin Pages**
-Sign Up/Login Pages: Outline the forms and features available on the Sign Up/Login pages
+   - Sign Up/Login Pages: Outline the forms and features available on the Sign Up/Login pages
 
 ### **Forgot Password Page**
-The Forgot Password page allows users to reset their passwords. Users enter their email address to receive a password reset link. Contains a single input field for the email address.
+   - The Forgot Password page allows users to reset their passwords. Users enter their email address to receive a password reset link.
 
+### **Create New Password Page**:
+  - Added input fields for new password and confirmation.
+  - Included navigation link to return to the login page.
